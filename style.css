@@ -1,0 +1,97 @@
+body {
+    background-image: url(./Images/Background_image.svg);
+    background-color: #121826;
+}
+
+#heading {
+    text-align: center;
+    font-family: outfit;    
+    margin-top: 50px;
+}
+
+.bigheading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #E5E7EB;
+}
+
+.ltlheading {
+    font-size: 16px;
+    font-weight: 400;
+    color: #9DA3AE;
+}
+
+.icon1 {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FCEED8;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.icon2 {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #DEE9FC;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.icon3 {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FBE5E6;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+#card-cont {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    background-color: #212936;
+    border-radius: 15px;
+    width: 300px;
+    padding: 25px;
+}
+
+h2 {
+    color: #E5E7EB;
+    font-family: outfit;
+    font-size: 20px;  
+    font-weight: 600;  
+}
+
+p {
+    color: #9DA3AE;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+
+
+@media (max-width:1024px) {
+    #card-cont {
+        flex-wrap: wrap;
+    }
+}
